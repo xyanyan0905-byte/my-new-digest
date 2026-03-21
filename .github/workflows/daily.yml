@@ -1,0 +1,28 @@
+name: 每日新闻摘要
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: 设置Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.12'
+
+      - name: 安装依赖
+        run: pip install openai feedparser requests python-dotenv schedule groq
+
+      - name: 运行程序
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          EMAIL_SENDER: ${{ secrets.EMAIL_SENDER }}
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+          EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
+        run: python main.py
