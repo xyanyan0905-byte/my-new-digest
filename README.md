@@ -56,5 +56,8 @@ python main.py
 	∙	🔗 Web3 动态
 	∙	💰 金融市场
 	∙	🌍 地缘政治
+## 📬 效果截图
+
+![邮件效果预览](email-preview.png)
 
 用 Cursor + AI 独立开发 · 从零到部署用时 1 天
