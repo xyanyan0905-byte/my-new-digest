@@ -58,6 +58,6 @@ python main.py
 	∙	🌍 地缘政治
 ## 📬 效果截图
 
-![邮件效果预览](email-preview.png)
+![邮件效果预览](https://github.com/xyanyan0905-byte/my-new-digest/blob/main/email-preview.png?raw=true)
 
 用 Cursor + AI 独立开发 · 从零到部署用时 1 天
