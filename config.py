@@ -43,13 +43,13 @@ RSS_FEEDS = {
     ],
     "金融": [
         # 原有源
-        "https://feeds.reuters.com/reuters/businessNews",
+       
         # 新增
         "https://news.google.com/rss/search?q=financial+market+economy&hl=en-US&gl=US&ceid=US:en",
     ],
     "地缘政治": [
         # 原有源
-        "https://feeds.reuters.com/Reuters/worldNews",
+       
         "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
         # 新增
         "https://news.google.com/rss/search?q=geopolitics+international+relations&hl=en-US&gl=US&ceid=US:en",
