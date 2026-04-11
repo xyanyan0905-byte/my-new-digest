@@ -10,10 +10,10 @@ def run():
     news = fetch_news(RSS_FEEDS)
     
     print("\n🤖 第二步：AI总结...")
-    summaries = summarize_news(news)
+    summaries, links = summarize_news(news)
     
     print("\n📧 第三步：发送邮件...")
-    send_email(summaries)
+    send_email(summaries, links)
     
     print("\n🎉 完成！")
 
