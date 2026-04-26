@@ -65,6 +65,10 @@ def send_email(summaries, links):
             server.sendmail(EMAIL_SENDER, EMAIL_RECEIVER, msg.as_string())
         print("✅ 邮件发送成功！")
     except Exception as e:
+<<<<<<< HEAD
     import traceback
     traceback.print_exc()
     raise
+=======
+        print(f"❌ 邮件发送失败: {e}")
+>>>>>>> dc7cc95bb0e49515ec329d1001f28ecfa74c9537
