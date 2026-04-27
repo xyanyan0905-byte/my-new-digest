@@ -27,9 +27,10 @@
 
 RSS 抓取 → AI 摘要 → 邮件推送
 
-## 📬 效果截图
+## 📧 邮件效果预览
 
-![邮件效果预览](https://github.com/xyanyan0905-byte/my-new-digest/blob/main/email-preview.png?raw=true)
+<img src="assets/screenshot-1-header.jpg" width="600" alt="每日新闻摘要邮件示例">
+<img src="assets/screenshot-2-ai-section.jpg" width="600" alt="AI新闻分析详情">
 
 ---
 *用 Cursor + AI 独立开发 · 从零到部署用时 1 天*
